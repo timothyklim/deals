@@ -14,4 +14,6 @@ gem 'eventmachine'
 gem 'em-net-http'
 gem 'em-http-request'
 
+gem 'nokogiri'
+
 gem 'unicorn'

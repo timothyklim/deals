@@ -16,4 +16,10 @@ gem 'em-http-request'
 
 gem 'nokogiri'
 
-gem 'unicorn'
+group :production do
+  gem 'unicorn'
+end
+
+group :test, :development do
+  gem 'awesome_print'
+end

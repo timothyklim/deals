@@ -23,3 +23,6 @@ end
 group :test, :development do
   gem 'awesome_print'
 end
+
+gem 'capistrano'
+gem 'capistrano-ext'
